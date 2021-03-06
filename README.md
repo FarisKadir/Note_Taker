@@ -29,7 +29,12 @@ https://github.com/FarisKadir/Note_Taker
 For this application, since it is deployed on Heroku, there is nothing to install.
 ```
 
+## Mock_Ups
+```
+![Mockup_Image](public/assets/images/mock1.png)
+![Mockup_Image](public/assets/images/mock2.png)
 
+```
 ## Live_Deployment
 
 Click on the link below to view the deployed site and use the application.
