@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const uniqid = require("uniqid");
 
 module.exports = app => {
     let notes;
@@ -30,7 +31,7 @@ module.exports = app => {
     app.post("/api/notes", (req, res) => {
         // Receives a new note, adds it to db.json, then returns the new note
         let newNote = req.body;
-        newNote.id = Math.floor(Math.random() * 987);
+        newNote.id = uniqid();
         notes.push(newNote);
         updateJson();
         console.log(`Added:\n   Note: ${newNote.title} \n   Text: ${newNote.text} \n   ID: ${newNote.id}`);
@@ -49,9 +50,7 @@ module.exports = app => {
             if (req.params.id == obj.id)  {
                 console.log(`Deleted:\n   Note: ${obj.title} \n   Text: ${obj.text}\n   ID: ${obj.id}`);
                 notes.splice(index, 1);
-            } else  {
-                console.log("did not find a match");
-            }
+            };
         });
         updateJson();
         res.json(notes);
