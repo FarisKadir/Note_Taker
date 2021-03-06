@@ -21,8 +21,6 @@ I created this application in order to practice using Express, creating APIs, an
 [Questions](#Questions)  
 
 
-
-
 ## Repository
 
 https://github.com/FarisKadir/Note_Taker
@@ -31,6 +29,18 @@ https://github.com/FarisKadir/Note_Taker
 ## Installation_Instructions
 ```
 For this application, since it is deployed on Heroku, there is nothing to install.
+```
+
+## Tests
+```
+There are no applicable tests for this application.
+```
+
+## NPM Packages
+The below NPM packages were used but not required to run the live deployment.
+```
+npm install express
+npm install uniqid
 ```
 
 ## Mock_Ups
