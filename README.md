@@ -18,6 +18,10 @@ I created this application in order to practice using Express, creating APIs, an
 
 [Live Deployment](#Live_Deployment)  
 
+[Questions](#Questions)  
+
+
+
 
 ## Repository
 
@@ -40,6 +44,10 @@ For this application, since it is deployed on Heroku, there is nothing to instal
 Click on the link below to view the deployed site and use the application.
 
 https://floating-cliffs-60171.herokuapp.com/
+
+## Questions
+
+For any questions please contact me on [GitHub](https://github.com/FarisKadir).
 
 
 
